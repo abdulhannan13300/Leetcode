@@ -32,7 +32,7 @@ class Solution {
         ListNode dummy = new ListNode(-1);
         ListNode tail = dummy;
 
-        //Run the loop till both the list are not null.
+        //Run the loop till one of the list is null.
         //It will exit the loops as soon as one list is empty.
         while(list1 != null && list2 != null){
 
